@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:ap-south-1:077286633283:task-definition/rule:4"
         LoadBalancerInfo:
-          ContainerName: "nginx"
-          ContainerPort: 3000
+          ContainerName: "rule-task"
+          ContainerPort: 8001
