@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "###TASK_DEF###"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:077286633283:task-definition/rule:6"
         LoadBalancerInfo:
           ContainerName: "rule-task"
           ContainerPort: 8001
